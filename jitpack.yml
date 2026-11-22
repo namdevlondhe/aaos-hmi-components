@@ -1,0 +1,4 @@
+jdk:
+  - openjdk17
+install:
+  - ./gradlew :hmi-components:publishToMavenLocal :hmi-car:publishToMavenLocal -x test
